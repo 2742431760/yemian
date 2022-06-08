@@ -1,0 +1,83 @@
+
+/*banner*/
+.fox-banner2{position:relative;height:300px;text-align:center;background:url(../images/banner2.jpg) no-repeat center center;}
+
+.logos > li{display:inline-block;list-style: none;padding:5px 3px;width:45%; box-sizing:border-box;}
+.logos > li img{width:100%;border: 1px solid #d7d7d7;}
+
+.logos{margin: 0px;padding:0px;text-align: center;}
+
+@media (min-width: 992px) {
+	.logos > li{width:auto;}
+}
+ul.fox-link{margin:0px;padding:0px;text-align: center;}
+ul.fox-link li{display: inline-block; list-style:none;padding:0px;}
+ul.fox-link li a{display: inline-block;margin:10px 5px; min-width:100px;padding:0 10px;line-height:30px;color:#2e2e2e;text-decoration:none;text-align:center;background:#e1e1e1;}
+ul.fox-link li a:hover{color:#ffffff;background:#e60012;}
+
+.fox-fangan-box{padding:0 10px;border-left:1px solid #d7d7d7;border-bottom:1px solid #d7d7d7;border-right:1px solid #d7d7d7;}
+.fox-fangan-box h2{margin:0px;padding:10px 0;}
+
+.fox-con{margin:0px;padding:0px;}
+.fox-con > div{list-style: none;padding:0px;left:0px;display:none;}
+
+
+.redbtn,a.redbtn{display:inline-block;padding:0 15px;font:16px/2 "SYHTregular","榛戜綋";color:#ffffff;text-decoration:none;background:#e60012;border-radius: 2em;}
+.redbtn:hover{box-shadow: 0px 2px 7px #e60012;}
+
+.bg-gray{background:#f7f7f7;}
+.bg-white{background:#ffffff;}
+
+
+.kehulogos{}
+.kehulogos [class*=col-]{margin-bottom:20px;}
+
+.sibuqu h2,h2.redline{position:relative;margin-top:0px;margin-bottom:40px;}
+.sibuqu h2:after,h2.redline:after{position:absolute;bottom:-20px;left:50%;margin-left:-25px;content:"";width:50px;height:2px;background:#e60012;}
+
+.ishengtai{}
+.ishengtai [class*=col-]{margin-bottom:15px;padding-left:0px;padding-right:0px;}
+
+.ichangjing{text-align: center;}
+.ichangjing .info{margin:10px 0;}
+.ichangjing [class*=col-]{padding-top:30px;padding-bottom:30px;border:1px solid #e5e5e5;border-top:none;}
+.ichangjing [class*=col-]:first-child{border-top:1px solid #e5e5e5 !important;}
+
+@media (min-width: 992px) {
+.ichangjing [class*=col-]{border:1px solid #e5e5e5;border-left:none;}
+.ichangjing [class*=col-]:first-child{border-left:1px solid #e5e5e5;}
+}
+
+
+
+
+.youshi{}
+.youshi .col-lg-3{cursor: default;}
+.youshi .name{font:100 24px/2 "SYHTregular","榛戜綋";color:#2e2e2e;}
+.youshi .col-lg-3:hover .name,.youshi .col-md-4:hover .name{color:#e60012;}
+.youshi .intro{min-height:60px;color:#939393;}
+
+
+.yingyong{}
+.yingyong .col-sm-6{margin-bottom:20px;}
+.yingyong .col-sm-6 a{position:relative;display:inline-block;width:100%;height:100%;overflow: hidden;}
+.yingyong .col-sm-6 a img{width:100%;}
+.yingyong .over{position:absolute;top:100%;left:0px;margin-top:-50px;width:100%;height:100%;background:rgba(0,0,0,0.6);transition: all 0.5s;}
+.yingyong .over .tit{font:24px/50px "SYHTregular","榛戜綋";color:#ffffff;text-align: center;}
+.yingyong .over .intro{padding:0 10px;font:400 16px/1.8 "SYHTregular","榛戜綋";color:#ffffff;}
+
+.yingyong .col-sm-6:hover .over{top:0;margin-top:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
